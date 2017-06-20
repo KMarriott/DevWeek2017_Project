@@ -47,7 +47,7 @@ class Record extends React.Component {
 
     setTimeout(() => {
       this.stopRecord();
-    }, 4000);
+    }, 10000);
   }
 
   stopRecord() {
